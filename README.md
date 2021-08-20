@@ -16,3 +16,15 @@ All data were anonymized following the best international practices and recommen
 
 ![image](https://user-images.githubusercontent.com/46320744/130269276-36c4d566-4643-4828-b05c-f8503401a9dc.png)
 
+## Modeling
+I tried several strategies to handle the class imbalance problem (having 603 observations and only 83 positivess), but the one that actually worked and improved the recall of my model was somewhat non-traditional: I created two separate dataframes, Covid-positives and negatives, shuffled the rows of the Covid-negatives dataframe, cropped it to match the dimension of the positive dataframe (83, 36), concatenated them and shuffled again. Also applied several sampling techniques named, 
+1. Random Undersampling
+2. Random Oversampling
+3. Shuffling Undersampling
+4. SMOTE
+5. TOMEK
+6. ADASYN
+7. SMOTETomek
+Surprisingly, using the built-in method for random undersampling didn't result in improvement of the recall or accuracy score.
+
+My final model, that performed the best, was XGBoost with  random oversampling. I was able to spot the positives with 97.31% accuracy.
