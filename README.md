@@ -28,3 +28,6 @@ I tried several strategies to handle the class imbalance problem (having 603 obs
 Surprisingly, using the built-in method for random undersampling didn't result in improvement of the recall or accuracy score.
 
 My final model, that performed the best, was XGBoost with  random oversampling. I was able to spot the positives with 97.31% accuracy.
+
+
+[References]
