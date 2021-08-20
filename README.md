@@ -14,4 +14,5 @@ All data were anonymized following the best international practices and recommen
 ## EDA and Class Imbalance
 ![image](https://user-images.githubusercontent.com/46320744/130268877-99b3f4d6-9e70-4d4a-9030-f2d8f0c7604f.png)
 
+![image](https://user-images.githubusercontent.com/46320744/130269276-36c4d566-4643-4828-b05c-f8503401a9dc.png)
 
