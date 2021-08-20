@@ -11,3 +11,6 @@ This dataset contains anonymized data from patients seen at the Hospital Israeli
 
 All data were anonymized following the best international practices and recommendations. All clinical data were standardized to have a mean of zero and a unit standard deviation.
 
+## EDA and Class Imbalance
+![image](https://user-images.githubusercontent.com/46320744/130255596-123a2b87-e1b0-4e02-b376-d2aee9e75c30.png)
+
