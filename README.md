@@ -30,10 +30,10 @@ Surprisingly, using the built-in method for random undersampling didn't result i
 My final model, that performed the best, was XGBoost with  random oversampling. I was able to spot the positives with 97.31% accuracy.
 
 
-[References]
-
+## [References]
 
 1.https://arxiv.org/abs/1106.1813
+
 2.https://medium.com/@411.codebrain/train-test-split-vs-stratifiedshufflesplit-374c3dbdcc36#:~:text=During%20data%20splitting%20operations%2C%20train_test_split,while%20StratifiedShuffleSplit%20represents%20Stratified%20Sampling.&text=In%20will%20be%20using%20the,notebook%20can%20be%20found%20HERE.
 
 3.https://medium.com/dataman-in-ai/sampling-techniques-for-extremely-imbalanced-data-part-i-under-sampling-a8dbc3d8d6d8
